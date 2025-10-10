@@ -3,7 +3,6 @@ const http = require('http')
 
 let classes = [
   { id: 1, name: "Adishakur ali", address: "yaqshiid" },
-  { id: 2, name: "Abdullahi Hussein Mohamed", address: "Hilwaa" }
 ];
 
 const server = http.createServer((req, res) => {
